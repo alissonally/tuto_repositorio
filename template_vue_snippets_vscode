@@ -1,0 +1,24 @@
+{
+	"vueinit":{
+		"prefix":"vt",
+		"scope": "javascript, vue",
+		"body": [
+			"<template>",
+			"\t<div></div>",
+			"</template>",
+			"<script>",
+			"export default{",
+				"\tname:\"${TM_FILENAME_BASE}\"",
+				"\tdata:()=>({",
+				"\t\t$1",
+				"\t})",
+				"\tmethods:{",
+				"\t}",
+				"\tcreated(){",
+				"\t}",
+			"}",
+			"</script>"
+		],
+		"description": "Template Vue"
+	}
+}
